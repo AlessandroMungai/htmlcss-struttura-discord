@@ -31,7 +31,7 @@ LAYOUT
 
 --------*/
 
-.my-row {
+.my-row-head{
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
@@ -54,7 +54,7 @@ nav{
 }
 
 
-.my-row-first{
+.my-row-first, .my-row-second {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,13 +62,9 @@ nav{
 
 .my-col-first{
     width: 75%;
-    
+
 }
 
-.my-row-second{
-    display: flex;
-    
-}
 
 .my-col-second-one{
     width: 60%;
@@ -147,4 +143,9 @@ DEBUG
     background-color: #FFC0CB;
     height: 500px;
     border: dashed black;
+}
+
+.third-section{
+    height: 600px;
+    background-color: #D3D3D3; 
 }
