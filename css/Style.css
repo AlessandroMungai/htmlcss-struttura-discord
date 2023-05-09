@@ -25,6 +25,7 @@ body{
     margin: 0 auto;
 }
 
+
 /*-------
 
 LAYOUT
@@ -58,11 +59,12 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
 }
+
 
 .my-col-first{
     width: 75%;
-
 }
 
 
@@ -74,7 +76,16 @@ nav{
     width: 40%;
 }
 
+.my-row-fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
 
+.my-col-fifth{
+    width: 80%;
+}
 
 
 /*-------
@@ -129,23 +140,34 @@ DEBUG
     border: dashed black;
 }
 
-.second-section{
-    height: 600px;
+.second-section, .fourth-section{
+    height: 500px;
 }
 
 .my-col-second-one{
     background-color: #1E90FF;
-    height: 500px;
+    height: 400px;
     border: dashed black;
 }
 
 .my-col-second-two{
     background-color: #FFC0CB;
-    height: 500px;
+    height: 400px;
     border: dashed black;
 }
 
 .third-section{
-    height: 600px;
+    height: 500px;
     background-color: #D3D3D3; 
+}
+
+.fifth-section{
+    height: 800px;
+    background-color: #D3D3D3;
+}
+
+.my-col-fifth{
+    background-color: #228B22;
+    height: 750px;
+    border: dashed black;
 }
