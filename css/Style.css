@@ -34,7 +34,7 @@ LAYOUT
 .my-row {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .my-col-logohead{
@@ -52,6 +52,34 @@ LAYOUT
 nav{
     display: inline-block;
 }
+
+
+.my-row-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-col-first{
+    width: 75%;
+    
+}
+
+.my-row-second{
+    display: flex;
+    
+}
+
+.my-col-second-one{
+    width: 60%;
+}
+
+.my-col-second-two{
+    width: 40%;
+}
+
+
+
 
 /*-------
 
@@ -96,10 +124,27 @@ DEBUG
 
 .first-section{
     background-color: #00008B;
-    height: 400px;
+    height: 500px;
 }
 
 .my-col-first{
     background-color: #EE82EE;
-    height: 250px;
+    height: 400px;
+    border: dashed black;
+}
+
+.second-section{
+    height: 600px;
+}
+
+.my-col-second-one{
+    background-color: #1E90FF;
+    height: 500px;
+    border: dashed black;
+}
+
+.my-col-second-two{
+    background-color: #FFC0CB;
+    height: 500px;
+    border: dashed black;
 }
