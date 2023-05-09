@@ -1,0 +1,105 @@
+/*-------
+
+RESET
+
+--------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------
+
+GENERAL
+
+--------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*-------
+
+LAYOUT
+
+--------*/
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.my-col-logohead{
+    width: 25%;
+}
+
+.my-col-linkhead{
+    width: 50%;
+}
+
+.my-col-login{
+    width: 25%;
+}
+
+nav{
+    display: inline-block;
+}
+
+/*-------
+
+DEBUG
+
+--------*/
+
+.debug header {
+    background-color: #ADD8E6;
+    height: 100px;
+}
+
+.my-col-logohead{
+    background-color: #DAA520;
+    height: 50px;
+    border: dashed black;
+    text-align: left;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+
+.my-col-linkhead{
+    background-color: #DAA520;
+    height: 50px;
+    border: dashed black;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.my-col-login{
+    background-color: #DAA520;
+    height: 50px;
+    border: dashed black;
+    text-align: right;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.first-section{
+    background-color: #00008B;
+    height: 400px;
+}
+
+.my-col-first{
+    background-color: #EE82EE;
+    height: 250px;
+}
