@@ -124,7 +124,7 @@ DEBUG
     height: 100px;
 }
 
-.my-col-logohead{
+.debug .my-col-logohead{
     background-color: #DAA520;
     height: 50px;
     border: dashed black;
@@ -135,7 +135,7 @@ DEBUG
     
 }
 
-.my-col-linkhead{
+.debug .my-col-linkhead{
     background-color: #DAA520;
     height: 50px;
     border: dashed black;
@@ -144,7 +144,7 @@ DEBUG
     padding-top: 10px;
 }
 
-.my-col-login{
+.debug .my-col-login{
     background-color: #DAA520;
     height: 50px;
     border: dashed black;
@@ -154,80 +154,80 @@ DEBUG
     padding-right: 5px;
 }
 
-.first-section{
+.debug .first-section{
     background-color: #00008B;
     height: 500px;
 }
 
-.my-col-first{
+.debug .my-col-first{
     background-color: #EE82EE;
     height: 400px;
     border: dashed black;
 }
 
-.second-section, .fourth-section{
+.debug .second-section, .fourth-section{
     height: 500px;
 }
 
-.my-col-second-one{
+.debug .my-col-second-one{
     background-color: #1E90FF;
     height: 400px;
     border: dashed black;
 }
 
-.my-col-second-two{
+.debug .my-col-second-two{
     background-color: #FFC0CB;
     height: 400px;
     border: dashed black;
 }
 
-.third-section{
+.debug .third-section{
     height: 500px;
     background-color: #D3D3D3; 
 }
 
-.fifth-section{
+.debug .fifth-section{
     height: 800px;
     background-color: #D3D3D3;
 }
 
-.my-col-fifth{
+.debug .my-col-fifth{
     background-color: #228B22;
     height: 750px;
     border: dashed black;
 }
 
-.sixth-section{
+.debug .sixth-section{
     height: 800px;
     background-color: #23272A;  
 }
 
-.my-col-sixth-one{
+.debug .my-col-sixth-one{
     background-color: #F08080;
     height: 600px;
     border: dashed black;
 }
 
-.my-col-sixth-two, .my-col-sixth-three,
+.debug .my-col-sixth-two, .my-col-sixth-three,
 .my-col-sixth-four,.my-col-sixth-five{
     background-color: #20B2AA;
     height: 600px;
     border: dashed black;
 }
 
-.seventh-section{
+.debug .seventh-section{
     margin-top: 2px;
     height: 150px;
     background-color: #23272A;  
 }
 
-.my-row-seventh{
+.debug .my-row-seventh{
     background-color: #7FFFD4;
     
     
 }
 
-.my-col-logo-foot{
+.debug .my-col-logo-foot{
     width: 80px;
     height: 30px;
     background-color: #B1828A;
@@ -236,7 +236,7 @@ DEBUG
     padding-top: 4px;
 }
 
-.my-col-bottone-foot{
+.debug .my-col-bottone-foot{
     width: 80px;
     height: 30px;
     background-color: #B1828A;
