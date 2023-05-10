@@ -59,6 +59,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 500px;
 }
 
@@ -76,17 +77,41 @@ nav{
     width: 40%;
 }
 
-.my-row-fifth{
+.my-row-fifth {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 800px;
+}
+
+.my-row-sixth {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 800px;
+    padding-top: 10px;
 }
 
 .my-col-fifth{
     width: 80%;
 }
 
+.my-col-sixth-one{
+    width: 40%;
+}
+
+.my-col-sixth-two, .my-col-sixth-three,
+.my-col-sixth-four,.my-col-sixth-five{
+    width: 15%;
+}
+
+.my-row-seventh{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
 
 /*-------
 
@@ -170,4 +195,52 @@ DEBUG
     background-color: #228B22;
     height: 750px;
     border: dashed black;
+}
+
+.sixth-section{
+    height: 800px;
+    background-color: #23272A;  
+}
+
+.my-col-sixth-one{
+    background-color: #F08080;
+    height: 600px;
+    border: dashed black;
+}
+
+.my-col-sixth-two, .my-col-sixth-three,
+.my-col-sixth-four,.my-col-sixth-five{
+    background-color: #20B2AA;
+    height: 600px;
+    border: dashed black;
+}
+
+.seventh-section{
+    margin-top: 2px;
+    height: 150px;
+    background-color: #23272A;  
+}
+
+.my-row-seventh{
+    background-color: #7FFFD4;
+    
+    
+}
+
+.my-col-logo-foot{
+    width: 80px;
+    height: 30px;
+    background-color: #B1828A;
+    border: dashed black;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.my-col-bottone-foot{
+    width: 80px;
+    height: 30px;
+    background-color: #B1828A;
+    border: dashed black;
+    padding-left: 10px;
+    padding-top: 4px;
 }
